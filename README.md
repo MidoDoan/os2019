@@ -10,7 +10,7 @@ Students are expected to:
 Student Info
 =======================
 
-* Name: *Put your name here*
-* ID: *Put your ID here*
+* Name: *Doan Lien Huong*
+* ID: *USTHBI8-078*
 
 
