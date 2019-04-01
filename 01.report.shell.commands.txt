@@ -1,0 +1,37 @@
+hello world
+Changing password for doan.
+Changing password for doan.
+Changing password for doan.
+Mon Apr  1 10:42:52 +07 2019
+Dell
+x86_64
+Linux Dell 4.15.0-20-generic #21-Ubuntu SMP Tue Apr 24 06:16:15 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+[    0.000000] Linux version 4.15.0-20-generic (buildd@lgw01-amd64-039) (gcc version 7.3.0 (Ubuntu 7.3.0-16ubuntu3)) #21-Ubuntu SMP Tue Apr 24 06:16:15 UTC 2018 (Ubuntu 4.15.0-20.21-generic 4.15.17)
+[    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-4.15.0-20-generic root=UUID=d02d395d-af56-4dac-bb40-2df9aac452c9 ro quiet splash vt.handoff=1
+[    0.000000] KERNEL supported cpus:
+[    0.000000]   Intel GenuineIntel
+[    0.000000]   AMD AuthenticAMD
+[    0.000000]   Centaur CentaurHauls
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+[    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+ 10:42:52 up  2:06,  1 user,  load average: 0,20, 0,25, 0,26
+doan
+doan     tty7         2019-04-01 08:36 (:0)
+uid=1000(doan) gid=1000(doan) groups=1000(doan),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),112(lpadmin),127(sambashare)
+doan     tty7         :0               Mon Apr  1 08:36    gone - no logout
+reboot   system boot  4.15.0-20-generi Mon Apr  1 08:36   still running
+doan     tty7         :0               Sun Mar 31 23:42 - 23:43  (00:01)
+doan     tty7         :0               Sun Mar 31 23:38 - 23:42  (00:03)
+doan     tty7         :0               Sun Mar 31 23:15 - 23:38  (00:22)
+doan     tty7         :0               Sun Mar 31 17:09 - 23:15  (06:06)
+reboot   system boot  4.15.0-20-generi Sun Mar 31 17:09 - 23:44  (06:34)
+doan     tty7         :0               Sat Mar 30 13:06 - 19:07  (06:01)
+reboot   system boot  4.15.0-20-generi Sat Mar 30 13:05 - 19:07  (06:02)
+doan     tty7         :0               Fri Mar 29 22:28 - 23:17  (00:49)
+Login     Name              Tty      Idle  Login Time   Office     Office Phone
+doan      Doan Lien Huong   tty7     2:06  Apr  1 08:36 (:0)
+ 10:42:52 up  2:06,  1 user,  load average: 0,20, 0,25, 0,26
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+doan     tty7     :0               08:36    2:06m  2:52   0.31s cinnamon-session --session cinnamon
