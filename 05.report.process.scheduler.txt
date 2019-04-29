@@ -1,0 +1,18 @@
+doan@Dell:~$ grep systemd /proc/sched_debug
+Ssystemd-journal   355       203.512885      2322   119         0.000000       788.216068         0.000000 0 0 /autogroup-7
+S  systemd-udevd   386       487.508259       631   120         0.000000       414.123511         0.000000 0 0 /autogroup-20
+Ssystemd-resolve   709       691.867298      6872   120         0.000000      2661.849712         0.000000 0 0 /autogroup-36
+S systemd-logind   752        85.115030      8244   120         0.000000       470.327191         0.000000 0 0 /autogroup-61
+S        systemd  1106        83.860305       143   120         0.000000        57.417715         0.000000 0 0 /autogroup-94
+S        systemd     1       478.463433      2734   120         0.000000      1891.988332         0.000000 0 0 /autogroup-2
+Ssystemd-timesyn   708         8.104428       208   120         0.000000        71.778643         0.000000 0 0 /autogroup-35
+
+doan@Dell:~$ grep switch /proc/1106/sched
+nr_switches                                  :                  143
+nr_voluntary_switches                        :                  133
+nr_involuntary_switches                      :                   10
+
+doan@Dell:~$ grep switch /proc/1/sched
+nr_switches                                  :                 2742
+nr_voluntary_switches                        :                 2192
+nr_involuntary_switches                      :                  550
