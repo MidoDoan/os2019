@@ -1,0 +1,6 @@
+doan@Dell:~$ ps -e | grep firefox
+ 1564 ?        00:00:11 firefox
+
+doan@Dell:~$ ps -o nlwp 1564
+NLWP
+  56
